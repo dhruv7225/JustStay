@@ -194,12 +194,13 @@ a{
     margin-top: 5%;
     /* border: 1px solid black; */
     /* gap: 117px; */
-    padding: 0px 7%;
+    /* change */
+    padding: 0px 2%;
 }
 .row-rev{
     margin-left: auto;
     margin-right: 0;
-    padding: 0px 7%;
+    /* padding: 0px 2%; */
     flex-direction: row-reverse;
 }
 
@@ -213,6 +214,8 @@ a{
     margin: 0 auto;
     /* margin: 0 auto; */
     /* display: inline; */
+    /* change */
+    width: 350px;
 }
 img {
     max-width: 100%;
@@ -228,7 +231,8 @@ img {
     gap: 32px;
     color: black;
     max-width: 650px;
-    width: 500px;
+    /* change */
+    width: 450px;
     max-height: auto;
     font-size: 16px;
     padding: 15px;
