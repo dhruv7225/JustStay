@@ -194,7 +194,7 @@ a{
     margin-top: 5%;
     /* border: 1px solid black; */
     gap: 20px;
-    padding: 0px 2%;
+    /* padding: 0px 2%; */
 }
 @media (max-width: 800px){
     .about-container{
