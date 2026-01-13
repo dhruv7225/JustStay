@@ -144,11 +144,20 @@ a{
 .hero-buttons{
     margin-top: 32px;
     display: flex;
+    flex-wrap: wrap;
     gap: 12px;
 }
 .hero-button{
+    text-align: center;
     border-radius: 12px;
     padding: 12px 24px;
+}
+@media (max-width:500px){
+    
+    .hero-button{
+        display: block;
+        width: 100%;
+    }
 }
 .col-orange{
     background-color: #FF8D41;
@@ -219,7 +228,7 @@ img {
     gap: 32px;
     color: black;
     max-width: 650px;
-    /* min-width: 353px; */
+    /* width: 500px; */
     max-height: auto;
     font-size: 16px;
     padding: 15px;
@@ -245,7 +254,17 @@ img {
     padding:  12px 24px;
     font-size: 14px;
 }
-
+@media (min-width:1199px){
+    .about-button:hover{
+        background-color: #FF8D41;
+        color: white;
+    }
+}
+@media (max-width:500px){
+    .about-button{
+        width: 100%;
+    }
+}
 /* fact value section */
 
 .small-container{
@@ -345,6 +364,11 @@ img {
     grid-auto-columns: 300px; */
 
 }
+/* @media screen and (min-width:1730px) {
+    .service-cards{
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    }
+} */
 .service-card{
     /* width: 350px; */
     padding: 3em;
@@ -355,6 +379,7 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    /* max-width: 400px; */
 }
 
 .service-text-head{
